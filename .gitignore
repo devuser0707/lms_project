@@ -1,0 +1,46 @@
+# .gitignore for LibraryManagementSystem (Java console app)
+
+### Compiled class files
+*.class
+bin/
+
+### Package / build outputs
+*.jar
+target/
+build/
+out/
+
+### IDE / editor directories and files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+### Gradle / Maven
+.gradle/
+/.gradle/
+/.mvn/
+
+### Logs and temp files
+*.log
+*.tmp
+*~
+*.swp
+
+### OS files
+.DS_Store
+Thumbs.db
+
+### Sensitive files
+*.keystore
+*.jks
+.env
+
+### Archives and packaged distributions
+*.zip
+*.tar.gz
+
+### Optional: ignore local library jars (uncomment if you vendor jars)
+# lib/*.jar
